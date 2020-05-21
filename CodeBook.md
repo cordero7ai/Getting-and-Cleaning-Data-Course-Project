@@ -103,6 +103,10 @@ are described in the scriptfile as comments.
 Code book for alldata.txt
 -------------------------
 
+UPDATE: alldata.txt has been removed because it is too large. However,
+this document explains how the original data source was created in order
+to compute the averages.
+
 The alldata.txt file contains all train and test data for all activities
 by each subject (also included in the last two columns).
 

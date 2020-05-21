@@ -11,9 +11,6 @@ The following files are contained in this repository:
     averages for each mean and std varibles for all activities performed
     by all subjects.
 
--   alldata.txt : contains all the train and test data and two extra
-    columns for activities and subject id.
-
 -   tidydata.txt : contains all the averages for all mean and std
     variables and two extra columns for activities and subject id.
 
