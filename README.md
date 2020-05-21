@@ -7,36 +7,26 @@ usage for the project.
 The following files are contained in this repository:
 -----------------------------------------------------
 
--   file 1.R contains code. Usage:
+-   run\_analysis.R : contains all necessary commands to calculate the
+    averages for each mean and std varibles for all activities performed
+    by all subjects.
 
-<!-- -->
+-   alldata.txt : contains all the train and test data and two extra
+    columns for activities and subject id.
 
-    mean(1,2,3)
+-   tidydata.txt : contains all the averages for all mean and std
+    variables and two extra columns for activities and subject id.
 
-    ## [1] 1
+-   CodeBook.md : contains the data dictionary for both .txt files and
+    the operations carried out to construct both data files.
 
--   file 2.R contains code. Usage:
+In order to run the R script just type: source(“run\_analysis.R”)
+-----------------------------------------------------------------
 
-<!-- -->
+The original data used in this project was initially published in:
 
-    mean(1,2,3)
-
-    ## [1] 1
-
-Markdown is a simple formatting syntax for authoring HTML, PDF, and MS
-Word documents. For more details on using R Markdown see
-<a href="http://rmarkdown.rstudio.com" class="uri">http://rmarkdown.rstudio.com</a>.
-
-When you click the **Knit** button a document will be generated that
-includes both content as well as the output of any embedded R code
-chunks within the document. You can embed an R code chunk like this:
-
-Including Plots
----------------
-
-You can also embed plots, for example:
-
-![](README_files/figure-markdown_strict/pressure-1.png)
-
-Note that the `echo = FALSE` parameter was added to the code chunk to
-prevent printing of the R code that generated the plot.
+-   Davide Anguita, Alessandro Ghio, Luca Oneto, Xavier Parra and
+    Jorge L. Reyes-Ortiz. Human Activity Recognition on Smartphones
+    using a Multiclass Hardware-Friendly Support Vector Machine.
+    International Workshop of Ambient Assisted Living (IWAAL 2012).
+    Vitoria-Gasteiz, Spain. Dec 2012
